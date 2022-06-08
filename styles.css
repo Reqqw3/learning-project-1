@@ -1,0 +1,25 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.header {
+    background-image: url("images/header_bg.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+}
+h1 {
+    font-size: 202px;
+    color: white;
+
+}
+.yellow-text {
+    color: #ffc600;
+}
+p {
+    color: white;
+}
