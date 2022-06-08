@@ -12,14 +12,44 @@
     background-position: center;
     height: 1080px;
 }
+
 h1 {
     font-size: 202px;
     color: white;
 
 }
+
 .yellow-text {
     color: #ffc600;
 }
+
+.download-psd {
+    color: #ffc600;
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+    margin-top: 130px;
+    display: block;
+}
+
 p {
     color: white;
+    font-size: 18px;
+}
+li {
+    color:#ffc600 ;
+    font-size: 18px;
+}
+li:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #ffc600;
+}
+ul li{
+    display: inline;
 }
