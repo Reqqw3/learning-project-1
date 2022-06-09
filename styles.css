@@ -1,3 +1,7 @@
+body {
+    font-family: "Vegur";
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -31,7 +35,7 @@ h1 {
     font-size: 18px;
 }
 
-h2 {
+.create {
     color: white;
     font-size: 60px;
     margin-top: 130px;
@@ -47,15 +51,79 @@ p {
     display: flex;
     margin-top: 45px;
 }
+
 .main-menu li {
     margin-right: 30px;
 }
+
 .main-menu a {
-    color:#ffc600 ;
+    color: #ffc600;
     font-size: 18px;
 }
+
 .main-menu a:hover {
     color: white;
     text-decoration: underline;
     text-decoration-color: #ffc600;
 }
+
+.about {
+    margin-top: 50px;
+    margin-left: 135px;
+    font-size: 70px;
+    color: #717171;
+}
+
+.sublime {
+    font-size: 80px;
+    margin-left: 135px;
+}
+
+.text2 {
+    margin-top: 20px;
+    color: #595959;
+    font-size: 15px;
+}
+
+.text3 {
+    color: #595959;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.column-50 {
+    width: 50%;
+}
+
+.column-33 {
+    width: 33.333%;
+    margin-top: 90px;
+
+}
+
+.about-us-title {
+    padding-top: 35px;
+}
+
+.about-us-item {
+    text-align: center;
+    padding: 0 40px;
+
+}
+
+.about-us h4 {
+    margin: 20px 0;
+}
+
+.about-us-items {
+    padding: 0 125px;
+}
+
+.about-us {
+    margin-bottom: 50px;
+}
+
