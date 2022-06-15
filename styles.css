@@ -7,6 +7,11 @@ body {
     margin: 0 auto;
     padding: 0 30px;
 }
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .header {
     background-image: url("images/header_bg.png");
@@ -148,7 +153,14 @@ h3 {
     margin: 0 auto;
 
 }
+.third-container {
+    width: 860px;
+    margin:0 auto;
 
+}
+.zxc {
+    margin-top: 45px;
+}
 .images-grid {
     margin-top: 25px;
     margin-bottom: 20px;
@@ -171,4 +183,7 @@ h3 {
     left: 50%;
     display: block;
     transform: translate(-50%, -50%);
+}
+.sp-text-column {
+    padding: 45px 40px 15px;
 }
